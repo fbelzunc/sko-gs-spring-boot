@@ -8,9 +8,9 @@
 		<version>2.2.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>user14</groupId>
+	<groupId>com.user14</groupId>
 	<artifactId>spring-boot</artifactId><!-- -SNAPSHOT -->
-	<version>1.1.245-SNAPSHOT</version><!-- current build version 1.1.245  -->
+	<version>1.1.248-SNAPSHOT</version><!-- current build version 1.1.245  -->
 	<name>spring-boot</name>
 	<description>Demo project for Spring Boot</description>
 
