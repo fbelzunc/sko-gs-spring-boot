@@ -43,7 +43,7 @@ spec:
       script {
         if (params.FLOW_CONTEXT == 'deploy') {
           step([$class: 'ElectricFlowPipelinePublisher',
-            configuration: 'user14',
+            configuration: 'flow-sko-jenkins-config',
             projectName: 'user14',
             pipelineName: 'user14',
             addParam: '{"pipeline":{"pipelineName":"user14","parameters":"[{\\\"parameterName\\\": \\\"jenkinsJobName\\\", \\\"parameterValue\\\": \\\"'+"${env.JOB_NAME}"+'\\\"},{\\\"parameterName\\\": \\\"jenkinsBuildNumber\\\", \\\"parameterValue\\\": \\\"'+"${env.BUILD_NUMBER}"+'\\\"}]"}}'
